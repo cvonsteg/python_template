@@ -1,7 +1,5 @@
 #!bin/bash
 
-alias pyt="py.test -W ignore tests/"
-
 function init_venv() {
   venv_dir=$1
   python3.7 -m venv "$venv_dir"
